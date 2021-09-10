@@ -30,14 +30,17 @@ describe("requests.js", () => {
 
     it("should make a GET request to the appropriate URL", async () => {
       // Write code here
+      expect(1).toBe(2);
     });
 
     it("should return a list of constellations with fewer than 10 stars with planets", async () => {
       // Write code here
+      expect(1).toBe(2);
     });
 
     it("should log an error to the console", async () => {
       // Write code here
+      expect(1).toBe(2);
     });
   });
 });
