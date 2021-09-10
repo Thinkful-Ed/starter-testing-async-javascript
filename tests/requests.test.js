@@ -56,7 +56,7 @@ describe("requests.js", () => {
       axios.get.mockImplementation(() =>
         Promise.reject(new Error("Request failed."))
       );
-      const spy = jest.spyOn(console, "error").mockImplementation();
+      jest.spyOn(console, "error").mockImplementation();
 
       const response = await index();
 
