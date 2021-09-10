@@ -58,7 +58,7 @@ describe("requests.js", () => {
       );
       jest.spyOn(console, "error").mockImplementation();
 
-      const response = await index();
+      await index();
 
       expect(console.error).toHaveBeenCalledWith("Request failed.");
     });
